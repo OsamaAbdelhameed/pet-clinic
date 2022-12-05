@@ -1,8 +1,12 @@
-package guru.osama.petclinic.model;
+package guru.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+/**
+ * Created by jt on 7/13/18.
+ */
 public class Pet {
+
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
